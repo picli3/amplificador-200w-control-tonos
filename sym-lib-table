@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "amplificador_200w-rescue")(type "Legacy")(uri "/home/oem/repos/amplificador_200w/amplificador_200w-rescue.lib")(options "")(descr ""))
+)

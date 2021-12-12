@@ -1,0 +1,1927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/oem/repos/amplificador_200w_estereo/amplificador_200w_estereo.kicad_sch</source>
+    <date>dom 12 dic 2021 18:39:24</date>
+    <tool>Eeschema 6.0.0-rc1-unknown-fbdb2bd91f~144~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>amplificador_200w_estereo.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/">
+      <title_block>
+        <title>Amplificador Zener 100W</title>
+        <company>https://maykolrey.com</company>
+        <rev>v1.1.0</rev>
+        <date>2021-06-23</date>
+        <source>amplificador_200w.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/">
+      <title_block>
+        <title>Amplificador Zener 100W</title>
+        <company>https://maykolrey.com</company>
+        <rev>v1.1.0</rev>
+        <date>2021-06-23</date>
+        <source>amplificador_200w.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/crossover/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>crossover.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/crossover/pasa-altas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/81cdedcb-8f7c-4285-87fd-278b03a67eb9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>filtroPasaAltas.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/crossover/pasa-bajas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/cd766d08-b808-4aab-8187-1247637f47e7/">
+      <title_block>
+        <title>Filtro pasa bajos Ajustable 30Hz a 338Hz</title>
+        <company>https://maykolrey.com</company>
+        <rev>v1.0.0</rev>
+        <date>2021-07-11</date>
+        <source>pasa-bajo-ajust.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C19">
+      <value>0.33uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amplificador_200w_estereo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b5c983d-60bd-4b87-b2a1-dba193924bb3</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amplificador_200w_estereo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a39699d8-2a1f-4b0e-aece-1a93754a9e3f</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amplificador_200w_estereo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86c091f5-c25a-4b31-b34a-fe0fae9dc49d</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amplificador_200w_estereo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0bf4506-9feb-451d-96f7-49b70e06c040</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amplificador_200w_estereo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c491b721-faee-4cb7-93ec-b3c31d008b6c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amplificador_200w_estereo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>421f213e-6920-4f9b-a902-220bdc9b2799</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>input</value>
+      <footprint>MSS_Connector:CUI_RCJ-21XX</footprint>
+      <fields>
+        <field name="Footprint">MSS_Connector:CUI_RCJ-21XX</field>
+        <field name="Reference">J2</field>
+        <field name="Value">input</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial_x2" description="double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="J2"/>
+      <property name="Value" value="input"/>
+      <property name="Footprint" value="MSS_Connector:CUI_RCJ-21XX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amplificador_200w_estereo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebff86d2-17f0-4d8d-a02f-04a22c95bb94</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>out</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Reference">J?</field>
+        <field name="Value">out</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Datasheet" value="~"/>
+      <property name="Footprint" value="TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"/>
+      <property name="Reference" value="J?"/>
+      <property name="Value" value="out"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amplificador_200w_estereo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f576930a-1a32-473f-911e-6ac354b950e6</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>out</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amplificador_200w_estereo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42f1e4fc-bb41-4c6d-bc01-a81a1078ae4b</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>out</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Reference">J?</field>
+        <field name="Value">out</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Datasheet" value="~"/>
+      <property name="Footprint" value="TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"/>
+      <property name="Reference" value="J?"/>
+      <property name="Value" value="out"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amplificador_200w_estereo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>746da014-2b67-4265-a82e-dcf1f04509d0</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>L7805</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <fields>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Reference">U3</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <property name="Datasheet" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"/>
+      <property name="Footprint" value="Package_TO_SOT_THT:TO-220-3_Vertical"/>
+      <property name="Reference" value="U3"/>
+      <property name="Value" value="L7805"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amplificador_200w_estereo.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fbc8248-0222-4052-b9d8-801906e2ff73</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.47uF</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c94b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <fields>
+        <field name="V">50V</field>
+      </fields>
+      <libsource lib="amplificador_200w-rescue" part="CP1-Device" description=""/>
+      <property name="V" value="50V"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c96c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <fields>
+        <field name="V">50V</field>
+      </fields>
+      <libsource lib="amplificador_200w-rescue" part="CP1-Device" description=""/>
+      <property name="V" value="50V"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c991</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10pF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c9cc</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10pF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c9d8</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca38</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca55</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>24V</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <libsource lib="amplificador_200w-rescue" part="D_Zener_ALT-Device" description=""/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c965</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <libsource lib="amplificador_200w-rescue" part="D_ALT-Device" description=""/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c9f0</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <libsource lib="amplificador_200w-rescue" part="D_ALT-Device" description=""/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca10</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <libsource lib="amplificador_200w-rescue" part="D_ALT-Device" description=""/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca0a</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>A733</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_HandSolder</footprint>
+      <fields>
+        <field name="Mfg Part #">KSA733CGBU</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_ECB" description="PNP transistor, emitter/collector/base"/>
+      <property name="Mfg Part #" value="KSA733CGBU"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c920</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>A733</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_HandSolder</footprint>
+      <fields>
+        <field name="Mfg Part #">KSA733CGBU</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_ECB" description="PNP transistor, emitter/collector/base"/>
+      <property name="Mfg Part #" value="KSA733CGBU"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c926</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>2SC2229</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_HandSolder</footprint>
+      <libsource lib="Device" part="Q_NPN_ECB" description="NPN transistor, emitter/collector/base"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c9b0</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>2SC2229</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_HandSolder</footprint>
+      <libsource lib="Device" part="Q_NPN_ECB" description="NPN transistor, emitter/collector/base"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c9b6</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>BD139</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca18</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>BD136</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca32</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>BD139</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca2c</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>2SC5200</value>
+      <footprint>Package_TO_SOT_THT:TO-264-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca6f</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>2SC5200</value>
+      <footprint>Package_TO_SOT_THT:TO-264-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca87</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>68K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c943</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>3.3K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c92c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c97f</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>33K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c95c</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>3.3K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c932</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c98a</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>68K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c99a</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c9f6</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c9e8</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c9bd</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca22</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca4b</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca64</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P10.16mm_Vertical</footprint>
+      <fields>
+        <field name="ACU">5%</field>
+        <field name="P">5W</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="P" value="5W"/>
+      <property name="ACU" value="5%"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca7e</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P10.16mm_Vertical</footprint>
+      <fields>
+        <field name="ACU">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="ACU" value="5%"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca8d</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>200</value>
+      <footprint>MSS_Devices:Potentiometer_Runtron_RM-065_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="channel-a"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-a/" tstamps="/91c9976e-33f3-4776-850e-36ee5d251977/"/>
+      <tstamps>00000000-0000-0000-0000-000060adc9e3</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.47uF</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c94b</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <fields>
+        <field name="V">50V</field>
+      </fields>
+      <libsource lib="amplificador_200w-rescue" part="CP1-Device" description=""/>
+      <property name="V" value="50V"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c96c</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <fields>
+        <field name="V">50V</field>
+      </fields>
+      <libsource lib="amplificador_200w-rescue" part="CP1-Device" description=""/>
+      <property name="V" value="50V"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c991</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10pF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c9cc</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10pF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c9d8</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca38</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca55</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>24V</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <libsource lib="amplificador_200w-rescue" part="D_Zener_ALT-Device" description=""/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c965</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <libsource lib="amplificador_200w-rescue" part="D_ALT-Device" description=""/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c9f0</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <libsource lib="amplificador_200w-rescue" part="D_ALT-Device" description=""/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca10</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <libsource lib="amplificador_200w-rescue" part="D_ALT-Device" description=""/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca0a</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>A733</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_HandSolder</footprint>
+      <fields>
+        <field name="Mfg Part #">KSA733CGBU</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_ECB" description="PNP transistor, emitter/collector/base"/>
+      <property name="Mfg Part #" value="KSA733CGBU"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c920</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>A733</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_HandSolder</footprint>
+      <fields>
+        <field name="Mfg Part #">KSA733CGBU</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_ECB" description="PNP transistor, emitter/collector/base"/>
+      <property name="Mfg Part #" value="KSA733CGBU"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c926</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>2SC2229</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_HandSolder</footprint>
+      <libsource lib="Device" part="Q_NPN_ECB" description="NPN transistor, emitter/collector/base"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c9b0</tstamps>
+    </comp>
+    <comp ref="Q13">
+      <value>2SC2229</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_HandSolder</footprint>
+      <libsource lib="Device" part="Q_NPN_ECB" description="NPN transistor, emitter/collector/base"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c9b6</tstamps>
+    </comp>
+    <comp ref="Q14">
+      <value>BD139</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca18</tstamps>
+    </comp>
+    <comp ref="Q15">
+      <value>BD136</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca32</tstamps>
+    </comp>
+    <comp ref="Q16">
+      <value>BD139</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca2c</tstamps>
+    </comp>
+    <comp ref="Q17">
+      <value>2SC5200</value>
+      <footprint>Package_TO_SOT_THT:TO-264-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca6f</tstamps>
+    </comp>
+    <comp ref="Q18">
+      <value>2SC5200</value>
+      <footprint>Package_TO_SOT_THT:TO-264-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca87</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>68K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c943</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>3.3K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c92c</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>4.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c97f</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>33K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c95c</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>3.3K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c932</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c98a</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>68K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c99a</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c9f6</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c9e8</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4c9bd</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca22</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca4b</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca64</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P10.16mm_Vertical</footprint>
+      <fields>
+        <field name="ACU">5%</field>
+        <field name="P">5W</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="P" value="5W"/>
+      <property name="ACU" value="5%"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca7e</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P10.16mm_Vertical</footprint>
+      <fields>
+        <field name="ACU">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="ACU" value="5%"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060a4ca8d</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>200</value>
+      <footprint>MSS_Devices:Potentiometer_Runtron_RM-065_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="channel-b"/>
+      <property name="Sheetfile" value="amplificador_200w.kicad_sch"/>
+      <sheetpath names="/channel-b/" tstamps="/b4ac9ced-c2e0-4836-a46e-6affbff21678/"/>
+      <tstamps>00000000-0000-0000-0000-000060adc9e3</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>in_aux</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</field>
+        <field name="Reference">J5</field>
+        <field name="Value">in_aux</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="J5"/>
+      <property name="Value" value="in_aux"/>
+      <property name="Footprint" value="Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"/>
+      <property name="Sheetname" value="crossover"/>
+      <property name="Sheetfile" value="crossover.kicad_sch"/>
+      <sheetpath names="/crossover/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/"/>
+      <tstamps>0cef0697-78eb-4a93-a3ba-c0dd5165c717</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>22K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Reference">R31</field>
+        <field name="Value">22K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Footprint" value="Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"/>
+      <property name="Reference" value="R31"/>
+      <property name="Value" value="22K"/>
+      <property name="Sheetname" value="crossover"/>
+      <property name="Sheetfile" value="crossover.kicad_sch"/>
+      <sheetpath names="/crossover/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/"/>
+      <tstamps>44b7a1f8-7608-41f0-a44a-786acfc7bb29</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>22K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="crossover"/>
+      <property name="Sheetfile" value="crossover.kicad_sch"/>
+      <sheetpath names="/crossover/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/"/>
+      <tstamps>695e5db3-af52-4389-a94f-42e10ad4597b</tstamps>
+    </comp>
+    <comp ref="RV3">
+      <value>47K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="crossover"/>
+      <property name="Sheetfile" value="crossover.kicad_sch"/>
+      <sheetpath names="/crossover/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/"/>
+      <tstamps>dade13ca-0569-457b-a70d-54e6abd8163f</tstamps>
+    </comp>
+    <comp ref="RV4">
+      <value>5k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal</field>
+        <field name="Reference">RV4</field>
+        <field name="Value">5k</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Datasheet" value=""/>
+      <property name="Footprint" value="Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"/>
+      <property name="Reference" value="RV4"/>
+      <property name="Value" value="5k"/>
+      <property name="Sheetname" value="crossover"/>
+      <property name="Sheetfile" value="crossover.kicad_sch"/>
+      <sheetpath names="/crossover/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/"/>
+      <tstamps>abfc29be-5c6d-40d4-a078-0e71a600aa00</tstamps>
+    </comp>
+    <comp ref="RV5">
+      <value>5k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="crossover"/>
+      <property name="Sheetfile" value="crossover.kicad_sch"/>
+      <sheetpath names="/crossover/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/"/>
+      <tstamps>6fc4b90b-62d2-4580-a3b2-5b089eb630c2</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TL082</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tl082-n.pdf</datasheet>
+      <libsource lib="MSS_Operational-Amplifier" part="TL082" description="TL082 Wide Bandwidth Dual JFET Input Operational Amplifier"/>
+      <property name="Sheetname" value="crossover"/>
+      <property name="Sheetfile" value="crossover.kicad_sch"/>
+      <sheetpath names="/crossover/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/"/>
+      <tstamps>f275fe21-4846-4845-9e5a-938c38be2494</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>47nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="pasa-altas"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-altas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/81cdedcb-8f7c-4285-87fd-278b03a67eb9/"/>
+      <tstamps>82ce30e0-92df-4dde-b658-fbcfcdf54d81</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>47nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="pasa-altas"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-altas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/81cdedcb-8f7c-4285-87fd-278b03a67eb9/"/>
+      <tstamps>411141d1-b9fc-4064-a33b-b2eb88e735cb</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="pasa-altas"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-altas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/81cdedcb-8f7c-4285-87fd-278b03a67eb9/"/>
+      <tstamps>008fbbc9-043e-4844-9d8d-d8330a4ddcb4</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="pasa-altas"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-altas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/81cdedcb-8f7c-4285-87fd-278b03a67eb9/"/>
+      <tstamps>8511fdf5-f0b5-4ce8-a7a6-bbc837e239ef</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="pasa-altas"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-altas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/81cdedcb-8f7c-4285-87fd-278b03a67eb9/"/>
+      <tstamps>16b9c56a-15ec-4022-91e4-7d80722af8d2</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>2K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="pasa-altas"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-altas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/81cdedcb-8f7c-4285-87fd-278b03a67eb9/"/>
+      <tstamps>970fb3ef-e874-4ee3-9a59-fb0560dcc41e</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>18K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="pasa-altas"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-altas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/81cdedcb-8f7c-4285-87fd-278b03a67eb9/"/>
+      <tstamps>29a3b30f-a147-4742-9d12-26347863fd93</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="pasa-altas"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-altas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/81cdedcb-8f7c-4285-87fd-278b03a67eb9/"/>
+      <tstamps>4744fe98-ad14-477b-9ea0-a264bb5ce259</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TL082</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tl082-n.pdf</datasheet>
+      <libsource lib="MSS_Operational-Amplifier" part="TL082" description="TL082 Wide Bandwidth Dual JFET Input Operational Amplifier"/>
+      <property name="Sheetname" value="pasa-altas"/>
+      <property name="Sheetfile" value="filtroPasaAltas.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-altas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/81cdedcb-8f7c-4285-87fd-278b03a67eb9/"/>
+      <tstamps>9fe0b520-bfc2-47dc-8d03-9d705dbf91ef</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>47nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="pasa-bajas"/>
+      <property name="Sheetfile" value="pasa-bajo-ajust.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-bajas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/cd766d08-b808-4aab-8187-1247637f47e7/"/>
+      <tstamps>00000000-0000-0000-0000-000060d9542a</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>47nF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="pasa-bajas"/>
+      <property name="Sheetfile" value="pasa-bajo-ajust.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-bajas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/cd766d08-b808-4aab-8187-1247637f47e7/"/>
+      <tstamps>00000000-0000-0000-0000-000060d947bc</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="pasa-bajas"/>
+      <property name="Sheetfile" value="pasa-bajo-ajust.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-bajas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/cd766d08-b808-4aab-8187-1247637f47e7/"/>
+      <tstamps>c398a874-6f43-4583-8048-fad946b9827a</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="pasa-bajas"/>
+      <property name="Sheetfile" value="pasa-bajo-ajust.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-bajas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/cd766d08-b808-4aab-8187-1247637f47e7/"/>
+      <tstamps>245bfe86-51e5-4702-88a3-74b8d558f8dc</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="pasa-bajas"/>
+      <property name="Sheetfile" value="pasa-bajo-ajust.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-bajas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/cd766d08-b808-4aab-8187-1247637f47e7/"/>
+      <tstamps>00000000-0000-0000-0000-000060d9bed1</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="pasa-bajas"/>
+      <property name="Sheetfile" value="pasa-bajo-ajust.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-bajas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/cd766d08-b808-4aab-8187-1247637f47e7/"/>
+      <tstamps>00000000-0000-0000-0000-000060d9cf75</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>4.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="pasa-bajas"/>
+      <property name="Sheetfile" value="pasa-bajo-ajust.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-bajas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/cd766d08-b808-4aab-8187-1247637f47e7/"/>
+      <tstamps>00000000-0000-0000-0000-000060d9168f</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>2.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="pasa-bajas"/>
+      <property name="Sheetfile" value="pasa-bajo-ajust.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-bajas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/cd766d08-b808-4aab-8187-1247637f47e7/"/>
+      <tstamps>00000000-0000-0000-0000-000060d9231c</tstamps>
+    </comp>
+    <comp ref="RV6">
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK163_Dual_Horizontal</footprint>
+      <libsource lib="Device" part="R_Potentiometer_Dual" description="Dual potentiometer"/>
+      <property name="Sheetname" value="pasa-bajas"/>
+      <property name="Sheetfile" value="pasa-bajo-ajust.kicad_sch"/>
+      <sheetpath names="/crossover/pasa-bajas/" tstamps="/f8f15f9d-cff7-4705-91bd-f68f82997cad/cd766d08-b808-4aab-8187-1247637f47e7/"/>
+      <tstamps>00000000-0000-0000-0000-000060d9708c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial_x2">
+      <description>double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial_x2</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN1" type="passive"/>
+        <pin num="2" name="IN2" type="passive"/>
+        <pin num="3" name="EXT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BCE">
+      <description>NPN transistor, base/collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BCE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_ECB">
+      <description>NPN transistor, emitter/collector/base</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_ECB</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PNP_BCE">
+      <description>PNP transistor, base/collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_BCE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PNP_ECB">
+      <description>PNP transistor, emitter/collector/base</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_ECB</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_Dual">
+      <description>Dual potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_Dual</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MSS_Operational-Amplifier" part="TL082">
+      <description>TL082 Wide Bandwidth Dual JFET Input Operational Amplifier</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tl082-n.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL082</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tl082-n.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="vcc" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="amplificador_200w-rescue" part="CP1-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="amplificador_200w-rescue" part="D_ALT-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_ALT-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="amplificador_200w-rescue" part="D_Zener_ALT-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_ALT-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/home/oem/kicad/kicad-symbols/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/home/oem/kicad/kicad-symbols/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/home/oem/kicad/kicad-symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="MSS_Operational-Amplifier">
+      <uri>/home/oem/kicad/dhw_symbols/MSS_Operational-Amplifier.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/home/oem/kicad/kicad-symbols/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/home/oem/kicad/kicad-symbols/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="amplificador_200w-rescue">
+      <uri>/home/oem/repos/amplificador_200w/amplificador_200w-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="vcc" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="vcc" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="2" name="-12V">
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="4" pintype="input"/>
+      <node ref="U2" pin="4" pintype="input"/>
+    </net>
+    <net code="3" name="-50V">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/channel-a/IN_SIGNAL">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="RV5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/channel-a/OUT">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/channel-b/IN_SIGNAL">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="7" name="/channel-b/OUT">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q16" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q18" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/crossover/IN-L">
+      <node ref="J2" pin="1" pinfunction="IN1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/crossover/IN-R">
+      <node ref="J2" pin="2" pinfunction="IN2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/crossover/pasa-altas/IN">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="11" name="/crossover/pasa-altas/OUT">
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="RV5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="output"/>
+    </net>
+    <net code="12" name="/crossover/pasa-altas/POT_N">
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="RV4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/crossover/pasa-altas/POT_P">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="RV4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="14" name="/crossover/pasa-bajas/IN_ALL">
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="RV3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="7" pintype="output"/>
+    </net>
+    <net code="15" name="50V">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q15" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q17" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="EXT" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="RV5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="17" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q9" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="Q10" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="Q11" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q12" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="Q12" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="Q13" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q16" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="Q10" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q13" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q14" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q15" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(C14-Pad2)">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="Q16" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q18" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="RV6" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(C18-Pad2)">
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="RV6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="39" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q14" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(Q5-Pad3)">
+      <node ref="Q5" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(Q6-Pad3)">
+      <node ref="Q6" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(Q8-Pad3)">
+      <node ref="Q8" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(Q9-Pad3)">
+      <node ref="Q9" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(Q10-Pad1)">
+      <node ref="Q10" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q11" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(Q11-Pad3)">
+      <node ref="Q11" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(Q12-Pad1)">
+      <node ref="Q12" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q13" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(Q14-Pad3)">
+      <node ref="Q14" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(Q15-Pad3)">
+      <node ref="Q15" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q17" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(Q17-Pad3)">
+      <node ref="Q17" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(Q18-Pad3)">
+      <node ref="Q18" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(R35-Pad1)">
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="62" name="Net-(R37-Pad1)">
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="RV6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(R38-Pad1)">
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="RV6" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(R39-Pad1)">
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="65" name="unconnected-(RV3-Pad3)">
+      <node ref="RV3" pin="3" pinfunction="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(RV4-Pad3)">
+      <node ref="RV4" pin="3" pinfunction="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(RV6-Pad3)">
+      <node ref="RV6" pin="3" pinfunction="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(RV6-Pad6)">
+      <node ref="RV6" pin="6" pinfunction="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pintype="input"/>
+    </net>
+    <net code="70" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="vcc" pintype="input"/>
+    </net>
+  </nets>
+</export>
