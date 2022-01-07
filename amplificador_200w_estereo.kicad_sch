@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (comment 1 "${NAME}")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x02_Female" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
@@ -133,11 +137,11 @@
           (stroke (width 0.2032) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start 1.778 -2.54) (mid 0.2221 -0.7317) (end -1.778 -2.032)
+        (arc (start 1.778 -2.54) (mid 0.222 -0.7317) (end -1.778 -2.032)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start 1.778 2.54) (mid 0.2221 4.3483) (end -1.778 3.048)
+        (arc (start 1.778 2.54) (mid 0.222 4.3483) (end -1.778 3.048)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -1244,13 +1248,13 @@
       (reference "Q4") (unit 1) (value "2SC2229") (footprint "Package_TO_SOT_THT:TO-92L_HandSolder")
     )
     (path "/91c9976e-33f3-4776-850e-36ee5d251977/00000000-0000-0000-0000-000060a4ca18"
-      (reference "Q5") (unit 1) (value "BD139") (footprint "Package_TO_SOT_THT:TO-126-3_Vertical")
+      (reference "Q5") (unit 1) (value "TIP42C") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/91c9976e-33f3-4776-850e-36ee5d251977/00000000-0000-0000-0000-000060a4ca32"
-      (reference "Q6") (unit 1) (value "BD136") (footprint "Package_TO_SOT_THT:TO-126-3_Vertical")
+      (reference "Q6") (unit 1) (value "TIP41C") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/91c9976e-33f3-4776-850e-36ee5d251977/00000000-0000-0000-0000-000060a4ca2c"
-      (reference "Q7") (unit 1) (value "BD139") (footprint "Package_TO_SOT_THT:TO-126-3_Vertical")
+      (reference "Q7") (unit 1) (value "TIP42C") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/91c9976e-33f3-4776-850e-36ee5d251977/00000000-0000-0000-0000-000060a4ca6f"
       (reference "Q8") (unit 1) (value "2SC5200") (footprint "Package_TO_SOT_THT:TO-264-3_Vertical")
@@ -1271,13 +1275,13 @@
       (reference "Q13") (unit 1) (value "2SC2229") (footprint "Package_TO_SOT_THT:TO-92L_HandSolder")
     )
     (path "/b4ac9ced-c2e0-4836-a46e-6affbff21678/00000000-0000-0000-0000-000060a4ca18"
-      (reference "Q14") (unit 1) (value "BD139") (footprint "Package_TO_SOT_THT:TO-126-3_Vertical")
+      (reference "Q14") (unit 1) (value "TIP42C") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/b4ac9ced-c2e0-4836-a46e-6affbff21678/00000000-0000-0000-0000-000060a4ca32"
-      (reference "Q15") (unit 1) (value "BD136") (footprint "Package_TO_SOT_THT:TO-126-3_Vertical")
+      (reference "Q15") (unit 1) (value "TIP41C") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/b4ac9ced-c2e0-4836-a46e-6affbff21678/00000000-0000-0000-0000-000060a4ca2c"
-      (reference "Q16") (unit 1) (value "BD139") (footprint "Package_TO_SOT_THT:TO-126-3_Vertical")
+      (reference "Q16") (unit 1) (value "TIP42C") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/b4ac9ced-c2e0-4836-a46e-6affbff21678/00000000-0000-0000-0000-000060a4ca6f"
       (reference "Q17") (unit 1) (value "2SC5200") (footprint "Package_TO_SOT_THT:TO-264-3_Vertical")
@@ -1404,6 +1408,12 @@
     )
     (path "/f8f15f9d-cff7-4705-91bd-f68f82997cad/cd766d08-b808-4aab-8187-1247637f47e7/00000000-0000-0000-0000-000060d9231c"
       (reference "R40") (unit 1) (value "2.7K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f8f15f9d-cff7-4705-91bd-f68f82997cad/0da739dc-1106-4c98-8f83-af353c76238b"
+      (reference "R41") (unit 1) (value "22K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f8f15f9d-cff7-4705-91bd-f68f82997cad/99c72668-fb22-49c4-85a8-f7ffd85937ee"
+      (reference "R42") (unit 1) (value "22K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/91c9976e-33f3-4776-850e-36ee5d251977/00000000-0000-0000-0000-000060adc9e3"
       (reference "RV1") (unit 1) (value "200") (footprint "MSS_Devices:Potentiometer_Runtron_RM-065_Vertical")

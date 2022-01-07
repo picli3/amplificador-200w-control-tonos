@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
+          "45_degree_only": false,
           "min_clearance": 0.508
         }
       },
@@ -340,7 +340,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -375,12 +375,39 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
+      },
+      {
+        "bus_width": 23.62204724409449,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "POWER",
+        "nets": [
+          "+12V",
+          "-12V",
+          "-50V",
+          "50V"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 1.0,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 11.811023622047244
       }
     ],
     "meta": {
       "version": 2
     },
-    "net_colors": null
+    "net_colors": {
+      "-50V": "rgb(132, 0, 0)",
+      "50V": "rgb(255, 0, 0)",
+      "GND": "rgb(204, 102, 0)"
+    }
   },
   "pcbnew": {
     "last_paths": {
@@ -388,17 +415,23 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "amplificador_200w_estereo.step",
       "vrml": ""
     },
-    "page_layout_descr_file": "/home/oem/repos/maykolrey.com.kicad_wks"
+    "page_layout_descr_file": "/home/maykol/repos/maykolrey.com.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "Mfg Part #",
+          "url": false,
+          "visible": false
+        }
+      ],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -424,7 +457,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "/home/oem/repos/maykolrey.com.kicad_wks",
+    "page_layout_descr_file": "/home/maykol/repos/maykolrey.com.kicad_wks",
     "plot_directory": "doc/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
@@ -457,5 +490,7 @@
       "pasa-bajas"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "NAME": "MAYKOL REY"
+  }
 }
